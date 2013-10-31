@@ -1,0 +1,215 @@
+/**********************************************************
+* Content Stylesheet - CSS
+* 
+* 06.09.2006 - Gabriel Mainberger <gabisoft@freesurf.ch>
+*  - Inital Version  
+*
+**********************************************************/
+
+#status{
+    display:none;
+    margin-bottom:15px;
+    padding:5px 10px;
+    border-radius:5px;
+	background-color: green;
+}
+ 
+#save{
+    //display: none;
+    margin: 5px 10px 10px;
+}
+
+/**********************************************************
+* DEFAULTS
+*/
+
+body,p,th,td,li
+{
+	font-family: Helvetia, Arial, sans-serif;
+	font-size: 11px;
+	color: #202020;
+}
+
+body
+{
+	margin: 0px;
+	background-color: #989174;
+}
+
+img
+{
+	border:0;
+}
+
+h1
+{
+	font-weight: bold;
+	font-size: 16px;
+	color: #b99230;
+	border-bottom: 1px solid;
+	margin-bottom: 20px;
+}
+
+h2
+{
+	font-weight: bold;
+	font-size: 15px;
+	color: #b99230;
+	border-bottom: 1px solid;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+h3
+{
+	font-weight: bold;
+	font-size: 12px;
+	color: #b99230;
+	border-bottom: 1px solid;
+	margin-top: 30px;
+}
+
+a
+{
+	text-decoration: none;
+	color: #4A6EB1;
+}
+
+a:hover
+{
+	text-decoration: underline;
+}
+
+ul
+{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/**********************************************************
+* DESIGN
+*/
+
+#page
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 900px;
+}
+
+#header
+{
+	float: left;
+	margin: 20px auto 0;
+	height: 100px;
+	width: 900px;
+	background-image: url(title.jpg);
+	border: 1px solid #807a61;
+}
+
+#content
+{
+	float: left;
+	width: 900px;
+	margin: 0 auto;
+	padding: 0;
+	background-color: #ffffff;
+	border-left: 1px solid #807a61;
+	border-right: 1px solid #807a61;
+	border-bottom: 1px solid #807a61;
+}
+
+#menu
+{
+	float: left;
+	margin: 15px;
+	width: 18%;  
+}
+
+#menu a
+{
+	text-decoration: none;
+	color: #90b14a;
+}
+
+#menu a:hover
+{
+	text-decoration: underline;
+}
+
+#menu ul
+{ 
+	list-style: none;
+	margin: 0;
+	padding: 4px;  
+}
+
+#menu li
+{
+	background-color: #fafafa;
+	border: 1px solid #f0f0f0;
+	padding: 2px 5px;
+	margin-bottom: 2px;
+	font-weight: bold;
+}
+
+#menu li li
+{
+	padding: 0 5px;
+	font-weight: normal;
+	border: none;
+	margin-bottom: 0;
+}
+
+#text
+{
+	float: left;
+	width: 72%;
+	margin: 5px;
+	color: #0a1b08;
+	margin-bottom: 40px;
+}
+
+#text p
+{
+	margin-left: 5px;
+}
+
+#footer
+{
+	float: left;
+	width: 900px;
+	height: 20px;
+	margin-top: 4px;
+	text-align: right;
+	font-size: 9px;
+	color: #dddddd;
+}
+
+/**********************************************************
+* SQL TABLE
+*/
+
+.sqltable
+{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.sqltable th
+{
+  border: 1px solid #cccccc;
+  background-color:#dddddd;
+}
+
+.sqltable td
+{
+  border: 1px solid #cccccc;
+  padding: 2px;
+}
+
+.sqltable tr:hover
+{
+  background-color: #eeeeee;
+  cursor: pointer;
+}
